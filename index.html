@@ -10,13 +10,14 @@
             counter++;
         }
 
-        function click() {
+        function click_me() {
+            console.log("here");
             window.Telegram.WebApp.showAlert('Hey there! ' + counter);
         }
     </script>
 </head>
 <body>
     <button onclick="count_me()">Count me</button>
-    <button onclick="click()">Show me</button>
+    <button onclick="click_me()">Show me</button>
 </body>
 </html>
